@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment</title>
+</head>
+<body>
+    <h1>Anastancia's Webpage</h1>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://www.pexels.com/photo/sample.jpg" alt="Sample Image from Pexels" width="300">
+    
+    <!-- Table of Contacts -->
+    <h2>Contacts</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Ana Wes</td>
+            <td>Nairobi</td>
+            <td>+254718772699</td>
+            <td>wesana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Eli Orah</td>
+            <td>Kisumu</td>
+            <td>+254721346587</td>
+            <td>oraeli@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mercy Wes</td>
+            <td>Kitengela</td>
+            <td>+254743527862</td>
+            <td>mercywes@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Angie Wes</td>
+            <td>Bungoma</td>
+            <td>+254745632781</td>
+            <td>angie43@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Hillary Wes</td>
+            <td>Waiyaki way</td>
+            <td>+254712543786</td>
+            <td>larysaw@gmail.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password"><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+        <br><br>
+        
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports"> <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobbies" value="music"> <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading"> <label for="reading">Reading</label>
+        <br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="kenya">KENYA</option>
+            <option value="ghana">GHANA</option>
+            <option value="nigeria">NIGERIA
+            </option>
+        </select>
+        <br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
